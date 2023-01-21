@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,100,1,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="container">
+    <div class="left-inputs">
+        <div class="text-field">
+            <label for="text-input">Text field<span class="required">*</span></label> <br>
+            <input type="text" placeholder="Input Text" required>
+        </div>
+        <div class="select-field">
+            <label for="select-input">Select Field<span id="info" class="material-symbols-outlined">info</span></label> <br>
+            <select  id="select-option">
+                <option value="1">select one</option>
+                <option value="2">Student</option>
+                <option value="3">Salaried</option>
+                <option value="4">Unemployed</option>
+                <option value="5">Others</option>
+            </select>
+        </div>
+        <div class="text-area">
+            <label for="text-area">Text Area<span id="info" class="material-symbols-outlined">info</span></label> <br>
+            <textarea name="text" id="text--area-input" cols="50" rows="5" placeholder="Text Area"></textarea>
+        </div>
+        <div class="adding-on">
+            <label for="add-on">Input Field with Add-ons<span class="required">*</span></label>
+            <div class="add-on">
+                <input id="add-input" type="text" placeholder="Label  Input Text" required><input id="button" type="button" value="Button">
+             </div>
+        </div>
+    </div>
+    <div class="right-inputs">
+        <div id="search-bar">
+            <span id="search" class="material-symbols-outlined">search</span><input type="text" id="searchbar" placeholder="Search">
+        </div>
+        <div class="check-box">
+            <label for="check-box"><input type="checkbox" id="check-box" checked>Checkbox</label>
+        </div>
+        <div class="radio-button">
+            <label for="radio-button"><input type="radio" id="radio-button" checked>Radio Button</label>
+        </div>
+        <div >
+            <label class="switch" for="switch"><input type="checkbox" id="check"> <span class="slider"></span>Switch</label>
+           
+        </div>
+    </div>
+</div>
+</body>
+</html>
